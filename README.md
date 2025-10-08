@@ -88,6 +88,6 @@ Você deve criar dois ambientes virtuais distintos a partir dos arquivos de requ
     -   **Ambiente**: `preprocessamento`
     -   **Ação**: Carrega os 5 datasets, limpa e segmenta os sinais, e salva o dataset final processado (que não deve ser versionado pelo Git).
 
-2.  **`02_Treinamento_CNN.ipynb`**:
+2.  **`02_Treinamento_do_Modelo_CNN.ipynb`**:
     -   **Ambiente**: `bs2+`
     -   **Ação**: Carrega os dados processados pelo notebook anterior, define a arquitetura da CNN, treina o modelo, avalia sua performance e salva o modelo final.
