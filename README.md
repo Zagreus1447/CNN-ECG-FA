@@ -60,7 +60,7 @@ Você deve criar dois ambientes virtuais distintos a partir dos arquivos de requ
 
 -   **Foco**: Treinamento, validação e inferência do modelo CNN (TensorFlow/Keras ou PyTorch).
 -   **Requisito**: Suporte a **CUDA/GPU** para aceleração do treinamento.
--   **Notebook Correspondente**: `notebooks/02_Treinamento_CNN.ipynb`
+-   **Notebook Correspondente**: `notebooks/modelo(datadecriacao).ipynb`
 
 **Passos para configuração:**
 
@@ -77,7 +77,7 @@ Você deve criar dois ambientes virtuais distintos a partir dos arquivos de requ
 
 2.  **Instale as dependências (incluindo bibliotecas de GPU):**
     ```bash
-    pip install -r environments/requirimentscnnNovaB.txt
+    pip install -r environments/requirimentsbs2+.txt
     ```
 
 ---
