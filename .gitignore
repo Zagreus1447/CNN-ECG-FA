@@ -1,0 +1,49 @@
+# ------------------------------------
+# 1. AMBIENTES VIRTUAIS E DEPENDÊNCIAS
+# Isso garante que você não suba as pastas pesadas de bibliotecas (venv, conda, etc.)
+
+# Regras gerais para ambientes
+.venv/
+env/
+venv/
+*.env
+*.bak
+
+# Pastas específicas do seu projeto (mesmo que estejam dentro de 'environments/')
+environments/b2s+/
+environments/cnnNovaB/
+environments/preprocessamentobs2/
+
+# Ignora qualquer outra pasta dentro de 'environments/'
+environments/*/
+
+# ------------------------------------
+# 2. DADOS E ARQUIVOS GRANDES (Data e Raw)
+# Ignora datasets grandes que devem ser baixados separadamente ou quebram o limite do GitHub
+
+data/
+datasets/
+
+
+# ------------------------------------
+# 3. CACHE E ARQUIVOS DE SISTEMA
+# Arquivos que o Python e o Jupyter criam automaticamente
+
+__pycache__/
+*.pyc
+*.pyd
+.ipynb_checkpoints/
+.DS_Store             # Arquivos de sistema do macOS
+Thumbs.db             # Arquivos de sistema do Windows
+# ... (Manter regras de ambientes e dados)
+
+# ------------------------------------
+# 3. MODELOS SALVOS E ARQUIVOS DE COMPILAÇÃO
+
+models/
+notebooks/experiments/
+
+# Arquivos de cache e configuração do VS Code ou IDEs
+.vscode/
+*.code-workspace
+
