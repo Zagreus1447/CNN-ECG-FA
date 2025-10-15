@@ -13,6 +13,8 @@ venv/
 environments/b2s+/
 environments/cnnNovaB/
 environments/preprocessamentobs2/
+environments/b2splus/
+environments/preprocessamentobs2plus/
 
 # Ignora qualquer outra pasta dentro de 'environments/'
 environments/*/
@@ -23,6 +25,8 @@ environments/*/
 
 data/
 datasets/
+data/raw
+data/processed
 
 
 # ------------------------------------
