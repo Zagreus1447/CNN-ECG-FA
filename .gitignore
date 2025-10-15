@@ -10,14 +10,14 @@ venv/
 *.bak
 
 # Pastas específicas do seu projeto 
-environments/b2s+/
-environments/cnnNovaB/
-environments/preprocessamentobs2/
-environments/b2splus/
-environments/preprocessamentobs2plus/
+enviroments/b2s+/
+enviroments/cnnNovaB/
+enviroments/preprocessamentobs2/
+enviroments/b2splus/
+enviroments/preprocessamentobs2plus/
 
-# Ignora qualquer outra pasta dentro de 'environments/'
-environments/*/
+# Ignora qualquer outra pasta dentro de 'enviroments/'
+enviroments/*/
 
 # ------------------------------------
 # 2. DADOS E ARQUIVOS GRANDES (Data e Raw)
