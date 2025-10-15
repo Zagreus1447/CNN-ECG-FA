@@ -1,6 +1,6 @@
 # ------------------------------------
 # 1. AMBIENTES VIRTUAIS E DEPENDÊNCIAS
-# Isso garante que você não suba as pastas pesadas de bibliotecas (venv, conda, etc.)
+
 
 # Regras gerais para ambientes
 .venv/
@@ -9,7 +9,7 @@ venv/
 *.env
 *.bak
 
-# Pastas específicas do seu projeto (mesmo que estejam dentro de 'environments/')
+# Pastas específicas do seu projeto 
 environments/b2s+/
 environments/cnnNovaB/
 environments/preprocessamentobs2/
